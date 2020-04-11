@@ -10,7 +10,7 @@ ENV     LIQUID_URL         https://github.com/ElementsProject/elements/releases/
 ENV     LIQUID_SHA256      50c273648ff650d7e2e5b0707953877f490aa3b5b4e82bdf06323d99ad881a73
 ENV     LIQUID_ASC_URL     https://github.com/ElementsProject/elements/releases/download/elements-0.18.1.6/SHA256SUMS.asc
 ENV     LIQUID_PGP_KS_URI  hkp://keyserver.ubuntu.com:80
-ENV     LIQUID_PGP_KEY     01EA5486DE18A882D4C2684590C8019E36C2E964
+ENV     LIQUID_PGP_KEY     8CC974D9CFD034DCEED213B02A57E0A610D7F19C
 
 RUN     set -ex && \
         apt-get update && \
